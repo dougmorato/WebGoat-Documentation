@@ -12,8 +12,8 @@ WebGoat contains 28 lessons, 4 labs, and 4 developer labs. Two distributions are
 	
 Use this feature comparison to choose the right distribution for you
 	
-Feature			| Easy-run 	| Source 
-------------------------------------
+Feature			| Easy-run| Source 
+------------------------|------------|---------
 Lessons			| X	| X 
 Standard Labs		| X	| X 
 Admin Report Card	| X	| X 
