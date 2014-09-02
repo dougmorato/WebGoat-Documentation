@@ -22,35 +22,35 @@ Developer Labs		|	| X
 
 # Downloading
 
- * *Easy-run distribution*: https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar  
- * *Source distribution*: https://github.com/WebGoat/WebGoat
+ * **Easy-run distribution**: https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar  
+ * **Source distribution**: https://github.com/WebGoat/WebGoat
 	
 # Quick Start -- Easy Run
- 1. *Install a Java JVM*.  You can get one here http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
- 2. *Download WebGoat*. https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar 
- 3. *Make Sure Java is in your path* This should already be the case after you install Java. If it is not, add it to your path
- 4. *Run WebGoat* by executing this command in the same directory you downloaded WebGoat into:
+ 1. **Install a Java JVM**.  You can get one here http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+ 2. **Download WebGoat**. https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar 
+ 3. **Make Sure Java is in your path** This should already be the case after you install Java. If it is not, add it to your path
+ 4. **Run WebGoat** by executing this command in the same directory you downloaded WebGoat into:
 	```
 		java -jar WebGoat-6.0-SNAPSHOT-war-exec.jar
 	```
- 5. *Verify it worked* by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen.  
+ 5. **Verify it worked** by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen.  
 	
- That's it!  If you need to change the port or other options, you can use --help to display more options. For example, to run WebGoat on port 9090, you can run:
+ **That's it!**  If you need to change the port or other options, you can use --help to display more options. For example, to run WebGoat on port 9090, you can run:
 	```
 		java -jar WebGoat-6.0-SNAPSHOT-war-exec.jar -port 9090
 	```
 
 # Quick Start -- Source Distribution
 	
- 1. *Install the Prerequisites.* Minimally, this is a JDK and Maven, but it may include an IDE Git if you do not have them.
- 2. *Download the source* from https://github.com/WebGoat/WebGoat You'll want to clone it if you intend to contribute, otherwise you can just download an archive
- 3. *Run WebGoat with Maven* Change to the project location, and run:
+ 1. **Install the Prerequisites** Minimally, this is a JDK and Maven, but it may include an IDE Git if you do not have them.
+ 2. **Download the source** from https://github.com/WebGoat/WebGoat You'll want to clone it if you intend to contribute, otherwise you can just download an archive
+ 3. **Run WebGoat with Maven** Change to the project location, and run:
 	
 	```
 		mvn tomcat:run
 	```
- 4. *Verify it worked* by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen. 
- 5. *Open with your IDE* to modify the source.  WebGoat is a standard maven project, so you should be able to import it with most any IDE
+ 4. **Verify it worked** by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen. 
+ 5. **Open with your IDE** to modify the source.  WebGoat is a standard maven project, so you should be able to import it with most any IDE
 	
 # Prerequisites
 	
