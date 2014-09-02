@@ -56,23 +56,17 @@ Developer Labs		|	| X
 	
 All you need to run WebGoat is a Java VM, but you'll need the standard Java development tooling to use the source distribution. 
 
-## Easy-run 
+## Easy-run Prerequisites
 
-Any JRE >= 1.6 will work.  You an download one for your platform here:
-	
-		http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+Any JRE >= 1.6 will work.  You an download one for your platform here: http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 	
 ## Source Distribution Prerequisites
 	
 To run from source, you'll need a standard Java development environment. If you are already a Java developer, you've likely got the tooling you need.  
 	
- 1. *Java JDK*.  A JRE distribution will not do. We recommend version 7	
-
-		http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+ 1. *Java JDK*.  A JRE distribution will not do. We recommend version 7  http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 		
- 2. *Maven* We recommend maven 3.2.3.  Maven is all that is required to compile, package, and run WebGoat.
-	
-		http://maven.apache.org/
+ 2. *Maven* We recommend maven 3.2.3.  Maven is all that is required to compile, package, and run WebGoat.  http://maven.apache.org/
 		
      Note:  Many IDE's come bundled with Maven already, so you may not need to download separately
 	
