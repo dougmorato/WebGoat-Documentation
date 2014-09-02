@@ -33,27 +33,25 @@ Developer Labs		|	| X
 	```
 		java -jar WebGoat-6.0-SNAPSHOT-war-exec.jar
 	```
-	5. *Verify it worked* by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen.  
+ 5. *Verify it worked* by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen.  
 	
-	That's it!  If you need to change the port or other options, you can use --help to display more options. For example, to run WebGoat on port 9090, you can run:
+ That's it!  If you need to change the port or other options, you can use --help to display more options. For example, to run WebGoat on port 9090, you can run:
 	```
 		java -jar WebGoat-6.0-SNAPSHOT-war-exec.jar -port 9090
 	```
 
 # Quick Start -- Source Distribution
 	
-	1. *Install the Prerequisites.* Minimally, this is a JDK and Maven, but it may include an IDE Git if you do not have them.
-	2. *Download the source* from https://github.com/WebGoat/WebGoat You'll want to clone it if you intend to contribute, otherwise you can just download an archive
-	3. *Run WebGoat with Maven* Change to the project location, and run:
+ 1. *Install the Prerequisites.* Minimally, this is a JDK and Maven, but it may include an IDE Git if you do not have them.
+ 2. *Download the source* from https://github.com/WebGoat/WebGoat You'll want to clone it if you intend to contribute, otherwise you can just download an archive
+ 3. *Run WebGoat with Maven* Change to the project location, and run:
 	
 	```
 		mvn tomcat:run
 	```
-	4. *Verify it worked* by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen. 
-	5. *Open with your IDE* to modify the source.  WebGoat is a standard maven project, so you should be able to import it with most any IDE
+ 4. *Verify it worked* by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen. 
+ 5. *Open with your IDE* to modify the source.  WebGoat is a standard maven project, so you should be able to import it with most any IDE
 	
-	
-
 # Prerequisites
 	
 	All you need to run WebGoat is a Java VM, but you'll need the standard Java development tooling to use the source distribution. 
