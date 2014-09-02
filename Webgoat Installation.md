@@ -10,14 +10,14 @@ WebGoat contains 28 lessons, 4 labs, and 4 developer labs. Two distributions are
 
   2. *Source distribution.*  Allows modifying the source code of WebGoat.  WebGoat is a standard Maven project. This is the right choice if you wish to complete the developer labs, or you wish to contribute to WebGoat.  *Pre-requisites* -- Java JDK >= 1.6, Maven  >= 3
 	
-	Use this feature comparison to choose the right distribution for you
+Use this feature comparison to choose the right distribution for you
 	
-	Feature				| Easy-run 	| Source 
-	------------------------------------
-	Lessons				| X	| X |
-	Standard Labs		| X	| X |
-	Admin Report Card	| X	| X |
-	Developer Labs		|	| X	|
+Feature			| Easy-run 	| Source 
+------------------------------------
+Lessons			| X	| X 
+Standard Labs		| X	| X 
+Admin Report Card	| X	| X 
+Developer Labs		|	| X	
 
 
 # Downloading
