@@ -6,9 +6,9 @@ This guide describes how to install and run WebGoat.
 
 WebGoat contains 28 lessons, 4 labs, and 4 developer labs. Two distributions are available, depending on what you would like to do.
 
-  1. *Easy-run package.* The easiest version to play with. The easy-run package is a platform-independent executable jar file, so it has minimal muss and fuss. Since this distribution does not include source, you cannot complete the 4 developer labs.  *Pre-requisites* : Java JRE >= 1.6	
+  1. **Easy-run package** The easiest version to play with. The easy-run package is a platform-independent executable jar file, so it has minimal muss and fuss. Since this distribution does not include source, you cannot complete the 4 developer labs.  *Pre-requisites* : Java JRE >= 1.6	
 
-  2. *Source distribution.*  Allows modifying the source code of WebGoat.  WebGoat is a standard Maven project. This is the right choice if you wish to complete the developer labs, or you wish to contribute to WebGoat.  *Pre-requisites* -- Java JDK >= 1.6, Maven  >= 3
+  2. **Source distribution**  Allows modifying the source code of WebGoat.  WebGoat is a standard Maven project. This is the right choice if you wish to complete the developer labs, or you wish to contribute to WebGoat.  *Pre-requisites* -- Java JDK >= 1.6, Maven  >= 3
 	
 Use this feature comparison to choose the right distribution for you
 	
@@ -54,44 +54,43 @@ Developer Labs		|	| X
 	
 # Prerequisites
 	
-	All you need to run WebGoat is a Java VM, but you'll need the standard Java development tooling to use the source distribution. 
+All you need to run WebGoat is a Java VM, but you'll need the standard Java development tooling to use the source distribution. 
 
 ## Easy-run 
 
-	Any JRE >= 1.6 will work.  You an download one for your platform here:
+Any JRE >= 1.6 will work.  You an download one for your platform here:
 	
 		http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 	
 ## Source Distribution Prerequisites
 	
-	To run from source, you'll need a standard Java development environment. If you are already a Java developer, you've likely got the tooling you need.  
+To run from source, you'll need a standard Java development environment. If you are already a Java developer, you've likely got the tooling you need.  
 	
-	1. *Java JDK*.  A JRE distribution will not do. We recommend version 7:
-	
+ 1. *Java JDK*.  A JRE distribution will not do. We recommend version 7	
+
 		http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 		
-	2. *Maven* We recommend maven 3.2.3.  Maven is all that is required to compile, package, and run WebGoat.
+ 2. *Maven* We recommend maven 3.2.3.  Maven is all that is required to compile, package, and run WebGoat.
 	
 		http://maven.apache.org/
 		
-		Note:  Many IDE's come bundled with Maven already, so you may not need to download separately
+     Note:  Many IDE's come bundled with Maven already, so you may not need to download separately
 	
 ## Optional Items, especially if you are contributing to WebGoat
 	
-	Depending on your preferences, you may want a few other items: 
+Depending on your preferences, you may want a few other items: 
 	
-	1. *Java IDE (Optional)*  A Java IDE is highly recommended if you will be contributing to WebGoat, or otherwise spending a lot of time in the WebGoat source code.  Any Java IDE with Maven support will do.  If you are open, we recommend NetBeans 8, JavaEE edition, because it includes all of the other software you will need
-		
+ 1. *Java IDE (Optional)*  A Java IDE is highly recommended if you will be contributing to WebGoat, or otherwise spending a lot of time in the WebGoat source code.  Any Java IDE with Maven support will do.  If you are open, we recommend NetBeans 8, JavaEE edition, because it includes all of the other software you will need		
 		https://netbeans.org/downloads/
 		
-	We recommend the Netbeans JavaEE distribution, which includes maven 3, git support, and Tomcat as well.
+  We recommend the Netbeans JavaEE distribution, which includes maven 3, git support, and Tomcat as well.
 	
-	2. *Git (Optional)* Only if you wish to contribute to WebGoat. You have serveral choices for Git support:
-		* `Netbeans`: Git support is built in
-		* `Eclipse` : we recommend  the egit plugin
-		* Native installation of git ( depending on your operating system)
+ 2. *Git (Optional)* Only if you wish to contribute to WebGoat. You have serveral choices for Git support:
+	* `Netbeans`: Git support is built in
+	* `Eclipse` : we recommend  the egit plugin
+	* Native installation of git ( depending on your operating system)
 		
-	3. *Your Own Servlet Container (Optional)*  If you insist, you can install WebGoat in your own servlet container.  This is *NOT* the recommended method, as it requires you to add webgoat users to your container configuration.
+ 3. *Your Own Servlet Container (Optional)*  If you insist, you can install WebGoat in your own servlet container.  This is *NOT* the recommended method, as it requires you to add webgoat users to your container configuration.
 	
 	
 	
