@@ -21,14 +21,15 @@ Developer Labs		|	| X
 
 
 # Downloading
-	Easy-run distribution: https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar  
-	Source distribution: https://github.com/WebGoat/WebGoat
+
+ * *Easy-run distribution*: https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar  
+ * *Source distribution*: https://github.com/WebGoat/WebGoat
 	
 # Quick Start -- Easy Run
-	1. *Install a Java JVM*.  You can get one here http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
-	2. *Download WebGoat*. https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar 
-	3. *Make Sure Java is in your path* This should already be the case after you install Java. If it is not, add it to your path
-	4. *Run WebGoat* by executing this command in the same directory you downloaded WebGoat into:
+ 1. *Install a Java JVM*.  You can get one here http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
+ 2. *Download WebGoat*. https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/JOB1/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar 
+ 3. *Make Sure Java is in your path* This should already be the case after you install Java. If it is not, add it to your path
+ 4. *Run WebGoat* by executing this command in the same directory you downloaded WebGoat into:
 	```
 		java -jar WebGoat-6.0-SNAPSHOT-war-exec.jar
 	```
