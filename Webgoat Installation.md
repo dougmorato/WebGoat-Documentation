@@ -66,7 +66,7 @@ To run from source, you'll need a standard Java development environment. If you 
 	
  1. *Java JDK*.  A JRE distribution will not do. We recommend version 7  http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
 		
- 2. *Maven* We recommend maven 3.2.3.  Maven is all that is required to compile, package, and run WebGoat.  http://maven.apache.org/
+ 2. *Maven*. We recommend maven 3.2.3.  Maven is all that is required to compile, package, and run WebGoat.  http://maven.apache.org/
 		
      Note:  Many IDE's come bundled with Maven already, so you may not need to download separately
 	
