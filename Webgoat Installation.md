@@ -4,11 +4,11 @@ This guide describes how to install and run WebGoat.
 
 # WebGoat Versions
 
-WebGoat contains 28 lessons, 4 labs, and 4 developer labs. Two distributions are available, depending on what you would like to do:
+WebGoat contains 28 lessons, 4 labs, and 4 developer labs. Two distributions are available, depending on what you would like to do.
 
-    1. *Easy-run package.* The easiest version to play with. The easy-run package is a platform-independent executable jar file, so it has minimal muss and fuss. Since this distribution does not include source, you cannot complete the 4 developer labs.  *Pre-requisites* : Java JRE >= 1.6	
+  1. *Easy-run package.* The easiest version to play with. The easy-run package is a platform-independent executable jar file, so it has minimal muss and fuss. Since this distribution does not include source, you cannot complete the 4 developer labs.  *Pre-requisites* : Java JRE >= 1.6	
 
-	2. *Source distribution.*  Allows modifying the source code of WebGoat.  WebGoat is a standard Maven project. This is the right choice if you wish to complete the developer labs, or you wish to contribute to WebGoat.  *Pre-requisites* -- Java JDK >= 1.6, Maven  >= 3
+  2. *Source distribution.*  Allows modifying the source code of WebGoat.  WebGoat is a standard Maven project. This is the right choice if you wish to complete the developer labs, or you wish to contribute to WebGoat.  *Pre-requisites* -- Java JDK >= 1.6, Maven  >= 3
 	
 	Use this feature comparison to choose the right distribution for you
 	
