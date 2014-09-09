@@ -49,7 +49,7 @@ Developer Labs		|	| X
  3. **Run WebGoat with Maven** Change to the project location, and run:
 	
 	```
-		mvn tomcat:run
+		mvn clean tomcat:run-war
 	```
  4. **Verify it worked** by pointing your browser to http://localhost:8080/WebGoat. You should see a signin screen. 
  5. **Open with your IDE** to modify the source.  WebGoat is a standard maven project, so you should be able to import it with most any IDE
