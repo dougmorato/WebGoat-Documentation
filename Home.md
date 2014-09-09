@@ -1,1 +1,1 @@
-Welcome to the webgoat2 wiki!
+Welcome to the WebGoat Wiki.  
