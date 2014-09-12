@@ -10,11 +10,9 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 
 1. [Q: I dropped the WebGoat war file into my non-Tomcat application server, why doesn't WebGoat seem to work?](#non-tom-cat-app-server)
 
-1. [Q: I'm having problems with the ant file working properly. How do I configure my ant environment so that I don't receive errors?](#and-file)
+1. [Q: I'm having problems with the maven build working properly. How do I configure my environment so that I don't receive errors?](#and-file)
 
 1. [Q: Why does WebGoat stop functioning right after startup?](#startup)
-
-1. [Q: Why can't I log into WebGoat after I deploy the war file to the Tomcat wepapps director?](#tomcat-deploy)
 
 1. [Q: How do I get configure WebGoat to run on an IP other then localhost?](#local-host-ip-config)
 
@@ -23,7 +21,7 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 <a name="bug-report"/>
 ##  How do I report a bug?
 
-Add your bug to the [http://code.google.com/p/webgoat/issues/list WebGoat Issues] page.
+Today we are tracking defects with [http://webgoat.atlassian.net Jira]. You will need to register before you can file a ticket.  We hope to resolve that soon or move to the github issue tracking system. 
 
 ***
 
@@ -32,36 +30,20 @@ Add your bug to the [http://code.google.com/p/webgoat/issues/list WebGoat Issues
 
 Rename the downloaded war file to WebGoat.war.  Delete the existing tomcat/webapps/*WebGoat* directories. Restart Tomcat.
 
+You can also create an tomcat embedded server build.  Look in the [https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-6.0) Installation Wiki]
 ***
 
 <a name="non-tom-cat-app-server"/>
 ## I dropped the WebGoat war file into my non-Tomcat application server and WebGoat doesn't seem to work.
 
-WebGoat uses Basic Authentication.  The users and roles are defined in tomcat/conf/tomcat-users.xml.  These same users and roles must be added to your application server.
+Make sure you are going to http://localhost:8080/WebGoat.  You should see a login page
 
 ***
 
 <a name="ant-file"/>
-## Having problems with the ant file working properly. How do I configure my ant environment so that I don't receive errors such as:
+## I'm having problems with the maven build working properly. How do I configure my environment so that I don't receive errors:
 
-```
-Specified VM install not found: type Standard VM, name j2sdk1.4.2.06
-```
-
-This usually indicates an Eclipse environment setting misconfiguration. Here are some possible solutions:
-
-```
-Ant Runtime Configuration
-
-- Window > Preferences
-- Ant > Runtime`
-- Under Classpath Tab check the "Global Entries"
-- Remove any jre "tools.jar" references
-- Add the "\tomcat\servers\lib\catalina-ant.jar" file.
-- Click Apply, Click OK.
-- Return to the Ant View and refresh.
-```
-
+Look in the [https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-6.0) Installation Wiki]
 ***
 
 <a name="startup"/>
@@ -73,26 +55,6 @@ WebGoat is a Java application that runs on Tomcat using port 80.  If you have an
     http://localhost:8080/WebGoat/attack
 ```
 
-***
-
-<a name="tomcat-deploy"/>
-## When I deploy the war file to the Tomcat wepapps directory, I can't login to WebGoat
-
-You need to add the webgoat users and roles to tomcat/conf/tomcat-users.xml
-
-```
-    <?xml version="1.0" encoding="UTF-8"?>
-    <tomcat-users>
-      <role rolename="webgoat_basic"/>
-      <role rolename="webgoat_admin"/>
-      <role rolename="webgoat_user"/>
-      <role rolename="tomcat"/>
-      <user password="webgoat" roles="webgoat_admin" username="webgoat"/>
-      <user password="basic" roles="webgoat_user,webgoat_basic" username="basic"/>
-      <user password="tomcat" roles="tomcat" username="tomcat"/>
-      <user password="guest" roles="webgoat_user" username="guest"/>
-    </tomcat-users>
-```
 
 ***
 
