@@ -1,8 +1,20 @@
-= Frequently Asked Questions
+# Frequently Asked Questions
 
 Before contacting webgoat support at webgoat at owasp.org or posting to the [http://lists.owasp.org/mailman/listinfo/owasp-webgoat WebGoat mailing list], please read the FAQ to see if your question may have been answered.
 
-==  How do I report a bug?
+##### Table of Contents
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+[Q: How do I report a bug?](#bug-report)
+<a name="bug-report"/>
+##  Q: How do I report a bug?
 
 A Add your bug to the [http://code.google.com/p/webgoat/issues/list WebGoat Issues] page.
 
