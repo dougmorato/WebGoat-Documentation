@@ -12,7 +12,7 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 
 1. [Q: I'm having problems with the ant file working properly. How do I configure my ant environment so that I don't receive errors?](#and-file)
 
-1. [Q: Q. Why does WebGoat stop functioning right after startup?](#startup)
+1. [Q: Why does WebGoat stop functioning right after startup?](#startup)
 
 1. [Q: Why can't I log into WebGoat after I deploy the war file to the Tomcat wepapps director?](#tomcat-deploy)
 
@@ -21,28 +21,28 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 1. [Q: How do I solve lesson X?](#mailing-list)
 
 <a name="bug-report"/>
-##  Q: How do I report a bug?
+##  How do I report a bug?
 
 Add your bug to the [http://code.google.com/p/webgoat/issues/list WebGoat Issues] page.
 
 ***
 
 <a name="tomcat-directory"/>
-## Q. I put the WebGoat war file in my tomcat/webapps directory and the http://localhost/WebGoat/attack URL doesn't work.
+## I put the WebGoat war file in my tomcat/webapps directory and the http://localhost/WebGoat/attack URL doesn't work.
 
 Rename the downloaded war file to WebGoat.war.  Delete the existing tomcat/webapps/*WebGoat* directories. Restart Tomcat.
 
 ***
 
 <a name="non-tom-cat-app-server"/>
-## Q. I dropped the WebGoat war file into my non-Tomcat application server and WebGoat doesn't seem to work.
+## I dropped the WebGoat war file into my non-Tomcat application server and WebGoat doesn't seem to work.
 
 WebGoat uses Basic Authentication.  The users and roles are defined in tomcat/conf/tomcat-users.xml.  These same users and roles must be added to your application server.
 
 ***
 
 <a name="ant-file"/>
-## Q. Having problems with the ant file working properly. How do I configure my ant environment so that I don't receive errors such as:
+## Having problems with the ant file working properly. How do I configure my ant environment so that I don't receive errors such as:
 
 ```
 Specified VM install not found: type Standard VM, name j2sdk1.4.2.06
@@ -65,7 +65,7 @@ Ant Runtime Configuration
 ***
 
 <a name="startup"/>
-## Q. When I start up WebGoat it dies very quickly.
+## When I start up WebGoat it dies very quickly.
 
 WebGoat is a Java application that runs on Tomcat using port 80.  If you have another application listening on port 80 (like IIS), you will need to change WebGoat's port (to 8080 or something) in the tomcat_root/conf/server.xml file.  You can also start up webgoat using the webgoat_8080.bat file.  You will then need to browse to:
 
@@ -76,7 +76,7 @@ WebGoat is a Java application that runs on Tomcat using port 80.  If you have an
 ***
 
 <a name="tomcat-deploy"/>
-## Q. When I deploy the war file to the Tomcat wepapps directory, I can't login to WebGoat
+## When I deploy the war file to the Tomcat wepapps directory, I can't login to WebGoat
 
 You need to add the webgoat users and roles to tomcat/conf/tomcat-users.xml
 
@@ -97,7 +97,7 @@ You need to add the webgoat users and roles to tomcat/conf/tomcat-users.xml
 ***
 
 <a name="local-host-ip-config"/>
-## Q. How do I get configure WebGoat to run on an IP other then localhost?
+## How do I get configure WebGoat to run on an IP other then localhost?
 
 In the webgoat.bat file, in the root directory, the following lines are executed: 
 
@@ -126,7 +126,7 @@ where the 127.0.0.1 will be replaced by your IP. In this case 10.20.20.123
 ***
 
 <a name="mailing-list"/>
-## Q. How do I solve lesson X?
+## How do I solve lesson X?
 
 Subscribe to the WebGoat mailing list at owasp-webgoat@lists.owasp.org.
 
