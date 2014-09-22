@@ -1,8 +1,36 @@
-
 == Overview ==
 
 The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Contributions are welcome!   
 
+== The Way it works ==
+
+1. There are two main populations of developers:  
+      (a) Core WebGoat developers. These folks have access to the WebGoat repository. They also have access to create, assign, and resolve JIRA tickets
+   
+      (b) Webgoat contributors. These folks do NOT have access to WebGoat, and have either read-only or no access to JIRA. 
+
+     (c) WebGoat admins. These folks have admin access to the WebGoat Bamboo, JIRA and github repos to approve new users.
+
+2. Webgoat admins ( Bruce right now ), promote users from "external" to "WebGoat" developers when it makes sense.
+
+3. The development workflow for Core WebGoat developers is as follows:
+    (a) master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
+    (b) anything you merge to master needs to be at least good enough to go into the nightly build. that means:
+         (b1) all of the tests pass
+         (b2) nothing is _worse_ than it was before you started
+    (c) it is strongly recommended that you create a local branch for any work you do. If you are working on a JIRA ticket, name the branch for it ( WEB-168).  When work is finished, you can do one of two things:
+      (c1) Push the branch to origin, so that someone else can check it out to test/review
+      (c2) Merge it into your local master branch, and then push the commits directly to master on origin.
+    (d) working directly on your clone of master is discourage, but acceptable.  This makes sense for very trivial changes that you know will not need review by others, and will be very quick.
+    (e) Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
+ 
+4. The development workflow for Webgoat contributors is as follows:
+    (a) create a gihub account, if not already existing
+    (b) fork the webgoat repository on github
+    (c) create a topic branch for the changes. The most common will be a new lesson or new feature. Presumably, most contributors do not have access to JIRA, so it will be common that they do not name it for a JIRA case. If a contributor is coordinating with a Core developer on a JIRA ticket, using the JIRA ticket is helpful
+    (d) after testing and verifying, contributor creates a pull request
+    (e) core developer checks out the requested branch, and tests. At this stage, a JIRA ticket may be created or found if it is applicable
+    (f) if the changes look good, core developer either merges the pull request onto master or seeks review from other developers. If the changes are not ok, the contributor is notified with changes that are neccessary.
 
 ==Java source code formatting:==
 
