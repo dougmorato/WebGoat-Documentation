@@ -10,18 +10,7 @@ The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Cont
 
 Webgoat admins ( Bruce right now ), promote users from "external" to "WebGoat" developers when it makes sense.
 
-## Development Workflow for Core Developers
 
-Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
-
-Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
-1.          all of the tests pass
-1.          nothing is _worse_ than it was before you started
-It is strongly recommended that you create a local branch for any work you do. If you are working on a JIRA ticket, name the branch for it ( WEB-168).  When work is finished, you can do one of two things:
-1.       Push the branch to origin, so that someone else can check it out to test/review
-1.       Merge it into your local master branch, and then push the commits directly to master on origin.
-Working directly on your clone of master is discourage, but acceptable.  This makes sense for very trivial changes that you know will not need review by others, and will be very quick.
-Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
 
 ## Development Workflow for Contributors 
 
@@ -32,7 +21,25 @@ Releases are cut from the master branch, using a separate, manually executed bam
 1. Core developer checks out the requested branch, and tests. At this stage, a JIRA ticket may be created or found if it is applicable
 1. If the changes look good, core developer either merges the pull request onto master or seeks review from other developers. If the changes are not ok, the contributor is notified with changes that are neccessary.
 
-==Java source code formatting:==
+## Development Workflow for Core Developers
+
+Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
+
+Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
+
+1.          all of the tests pass
+1.          nothing is _worse_ than it was before you started
+
+It is strongly recommended that you create a local branch for any work you do. If you are working on a JIRA ticket, name the branch for it ( WEB-168).  When work is finished, you can do one of two things:
+
+1.       Push the branch to origin, so that someone else can check it out to test/review
+1.       Merge it into your local master branch, and then push the commits directly to master on origin.
+
+Working directly on your clone of master is discourage, but acceptable.  This makes sense for very trivial changes that you know will not need review by others, and will be very quick.
+
+Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
+
+# Java source code formatting
 
 WebGoat uses the Eclipse Editor with JavaStyle formatting.  The JavaStyle WebGoat XML file is located at [http://code.google.com/p/webgoat/source/browse/trunk/webgoat/main/project/config/JavaStyle_WebGoat.xml JavaStyle_WebGoat.xml].  
 
