@@ -5,21 +5,21 @@ The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Cont
 ## Roles
 
 * **Core WebGoat developers**. These folks have access to the WebGoat repository. They also have access to create, assign, and resolve JIRA tickets
-* **Webgoat contributors**. These folks do NOT have access to WebGoat, and have either read-only or no access to JIRA 
+* **Webgoat contributors**. These folks do NOT have access to WebGoat, and have either read-only or no access to JIRA.
 * **WebGoat admins**. These folks have admin access to the WebGoat Bamboo, JIRA and github repos to approve new users
 
-Webgoat admins ( Bruce right now ), promote users from "external" to "WebGoat" developers when it makes sense.
+Webgoat admins promote users from "external" to "WebGoat" developers when it makes sense.
 
 
 
 ## Development Workflow for Contributors 
 
-1. Create a gihub account, if not already existing
-1. Fork the webgoat repository on github
-1. Create a topic branch for the changes. The most common will be a new lesson or new feature. Presumably, most contributors do not have access to JIRA, so it will be common that they do not name it for a JIRA case. If a contributor is coordinating with a Core developer on a JIRA ticket, using the JIRA ticket is helpful
-1. After testing and verifying, contributor creates a pull request
-1. Core developer checks out the requested branch, and tests. At this stage, a JIRA ticket may be created or found if it is applicable
-1. If the changes look good, core developer either merges the pull request onto master or seeks review from other developers. If the changes are not ok, the contributor is notified with changes that are neccessary.
+1. **Create a gihub account**, if not already existing
+1. **Fork the Webgoat repository** at https://github.com/WebGoat/WebGoat
+1. **Create a topic branch** for the changes. If you are working on a Webgoat JIRA issue, use the ticket number as the topic branch name. If there is no JIRA ticket, use a sensible name.
+1. **Develop and test your changes**. See *running tests here--needs link* to make sure your changes are ok, and make sure follow the source code guidelines *here--needs link*
+1. **Create a Pull Request**. When you are ready to contribute
+1. **Core developer merges changes** If your changes look good, a care developer will merge the change into master.  Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread.
 
 ## Development Workflow for Core Developers
 
