@@ -1,8 +1,8 @@
-#summary Developer Contributions Instructions (THIS IS OLD - NEEDS UPDATING)
 
-= Introduction =
+== Overview ==
 
-The following instructions will assist developers with building the WebGoat project as well specifying guidelines for contributing to the source code.
+The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Contributions are welcome!   
+
 
 ==Java source code formatting:==
 
