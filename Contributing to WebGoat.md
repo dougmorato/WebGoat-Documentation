@@ -1,8 +1,8 @@
-== Overview ==
+# Overview
 
 The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Contributions are welcome!  This page describes the WebGoat development process. 
 
-== Roles ==
+# Roles
 
 * **Core WebGoat developers**. These folks have access to the WebGoat repository. They also have access to create, assign, and resolve JIRA tickets
 * **Webgoat contributors**. These folks do NOT have access to WebGoat, and have either read-only or no access to JIRA 
@@ -10,7 +10,7 @@ The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Cont
 
 Webgoat admins ( Bruce right now ), promote users from "external" to "WebGoat" developers when it makes sense.
 
-== Development Workflow for Core Developers ==
+# Development Workflow for Core Developers
 
 Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
 
@@ -23,7 +23,7 @@ It is strongly recommended that you create a local branch for any work you do. I
 Working directly on your clone of master is discourage, but acceptable.  This makes sense for very trivial changes that you know will not need review by others, and will be very quick.
 Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
 
-== Development Workflow for Contributors ==
+# Development Workflow for Contributors 
 
 1. Create a gihub account, if not already existing
 1. Fork the webgoat repository on github
