@@ -10,7 +10,16 @@ The WebGoat project is hosted on github, here [https://github.com/WebGoat]. Cont
 
 Webgoat admins promote users from "external" to "WebGoat" developers when it makes sense.
 
+## Repository Setup and Release Process
 
+Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
+
+Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
+
+1.          all of the tests pass
+1.          nothing is _worse_ than it was before you started
+
+Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
 
 ## Development Workflow for Contributors 
 
@@ -23,21 +32,22 @@ Webgoat admins promote users from "external" to "WebGoat" developers when it mak
 
 ## Development Workflow for Core Developers
 
-Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
+The workflow for Core Developers is very similar to that of contributors. The main difference is that contributors must first fork the repo, whereas core developers can create branches in the original repository directly. Core developers, of course may also be merging pull requests.
 
-Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
+Core Developers should follows these steps when working on issues:
 
-1.          all of the tests pass
-1.          nothing is _worse_ than it was before you started
+1. **Create a topic branch** for the changes. Use the ticket number as the topic branch name. If there is no JIRA ticket, you should get/make one.
+1. **Develop and test your changes**. See *running tests here--needs link* to make sure your changes are ok, and make sure follow the source code guidelines *here--needs link*
+1. **Push your changes to origin** This makes your branch available for others to review.
+1. **Get Feedback, if needed** If you need someone else to test, they can check out your branch. 
+1. **Create a Pull Request**. When you think your changes are ready, make a pull request for the merge into master.  Though a core developer could easily merge directly, this makes sure another developer knows about the change, has reviewed it, etc.  
+1. **A Different Core developer merges changes** Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread.
 
-It is strongly recommended that you create a local branch for any work you do. If you are working on a JIRA ticket, name the branch for it ( WEB-168).  When work is finished, you can do one of two things:
+Though it is tempting, core developers should not work off of their local master branch. There are two reasons why this is a bad idea:
 
-1.       Push the branch to origin, so that someone else can check it out to test/review
-1.       Merge it into your local master branch, and then push the commits directly to master on origin.
+1.       You wont be able to easily work on multiple things without stashing
+1.       When your pull request is merged into the target branch, the maintainer may decide to rebase your commits to avoid a merge commit, or to squash the commits into a single coherent commit. If your pull request was from your 'master' branch, you will encounter problems when merging the target branch back into your own 'master'. 
 
-Working directly on your clone of master is discourage, but acceptable.  This makes sense for very trivial changes that you know will not need review by others, and will be very quick.
-
-Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
 
 # Java source code formatting
 
