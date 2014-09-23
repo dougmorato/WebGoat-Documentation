@@ -12,7 +12,7 @@ Webgoat admins promote users from "external" to "WebGoat" developers when it mak
 
 ## Repository Setup and Release Process
 
-Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'. The latest nightly build can be found [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and a list of all recently nighly builds is [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM)
+Master is the main working stream. It is built nightly in bamboo, producing a numbered version each build.  This is the bleeding edge version, the 'nightly build'. The latest nightly build can be found [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and a list of all recently nighly builds is [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM)
 
 Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
 
