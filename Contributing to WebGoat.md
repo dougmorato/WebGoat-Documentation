@@ -12,7 +12,7 @@ Webgoat admins promote users from "external" to "WebGoat" developers when it mak
 
 ## Repository Setup and Release Process
 
-Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'
+Master is the main working stream. it is built nightly in bamboo, and produces a new version.  This is the bleeding edge version, the 'nightly build'. The latest nightly build can be found [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and a list of all recently nighly builds is [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM)
 
 Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
 
@@ -27,7 +27,7 @@ Releases are cut from the master branch, using a separate, manually executed bam
 1. **Fork the Webgoat repository** at https://github.com/WebGoat/WebGoat
 1. **Create a topic branch** for the changes. If you are working on a Webgoat JIRA issue, use the ticket number as the topic branch name. If there is no JIRA ticket, use a sensible name.
 1. **Develop and test your changes**. See *running tests here--needs link* to make sure your changes are ok, and make sure follow the source code guidelines *here--needs link*
-1. **Create a Pull Request**. When you are ready to contribute
+1. **Create a Pull Request**. When you are ready to contribute your code. Please rebase your commits on top of master, so that your changes are easy to pull. If you don't know how to do that, you can learn [here](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
 1. **Core developer merges changes** If your changes look good, a care developer will merge the change into master.  Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread.
 
 ## Development Workflow for Core Developers
