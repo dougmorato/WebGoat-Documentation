@@ -23,6 +23,8 @@ Releases are cut from the master branch, using a separate, manually executed bam
 
 ## Development Workflow for Contributors 
 
+Contributors do not have direct repository access, but that doesn't mean contributions are not welcome!  If you'd like to help out, just fork the Webgoat Repository and make a pull request.  In more detail:
+
 1. **Create a gihub account**, if not already existing
 1. **Fork the Webgoat repository** at https://github.com/WebGoat/WebGoat
 1. **Create a topic branch** for the changes. If you are working on a Webgoat JIRA issue, use the ticket number as the topic branch name. If there is no JIRA ticket, use a sensible name.
@@ -32,7 +34,7 @@ Releases are cut from the master branch, using a separate, manually executed bam
 
 ## Development Workflow for Core Developers
 
-The workflow for Core Developers is very similar to that of contributors. The main difference is that contributors must first fork the repo, whereas core developers can create branches in the original repository directly. Core developers, of course may also be merging pull requests.
+The workflow for Core Developers is very similar to that of contributors. The main difference is that creating a fork is not necessary, and JIRA references are mandatory. Core developers, of course, may also be merging pull requests from external contributors.
 
 Core Developers should follows these steps when working on issues:
 
