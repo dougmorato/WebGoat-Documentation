@@ -52,7 +52,7 @@ If you are not an experienced git user, these tutorials might help:
 
 ## Development Workflow for Core Developers
 
-The workflow for Core Developers is very similar to that of contributors. The main difference is that creating a fork is not necessary, and JIRA references are mandatory. Core developers, of course, may also be merging pull requests from external contributors.
+The workflow for core developers is very similar to that of contributors. The main difference is that creating a fork is not necessary, and JIRA references are mandatory. Core developers, of course, may also be merging pull requests from external contributors-- in which case the flow starts at step 6
 
 Core Developers should follows these steps when working on issues:
 
@@ -61,7 +61,7 @@ Core Developers should follows these steps when working on issues:
 1. **Push your changes to origin** This makes your branch available for others to review
 1. **[Optional] Get Feedback, if needed** If you need someone else to test, they can check out your branch. If the change is simple, you might just move directly to the pull request.
 1. **Create a Pull Request**. This is done via the github website.  When you think your changes are ready, make a pull request for the merge into master.  Though you could easily merge directly, this makes sure another developer knows about the change, and has reviewed it.  
-1. **A Different Core developer merges changes** Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread. It is preferred to merge pull requests through the github website, unless there are conflicts.  Not only is it easier, but it is less prone to error.
+1. **A different Core developer merges changes** Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread. It is preferred to merge pull requests through the github website, unless there are conflicts.  Not only is it easier, but it is less prone to error.
 
     * If a pull request cannot be merged on the website, it is ok to ask the originator to rebase their pull request on master.  This is more work for the requestor, but it is almost always the right thing to do, because it will have the original author solving merge problems, not the reviewer.  If this is greek to you, [this might help](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
 
