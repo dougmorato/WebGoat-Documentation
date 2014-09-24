@@ -1,6 +1,6 @@
 ## Overview
 
-The WebGoat project is hosted [at github/WebGoat](https://github.com/WebGoat). 
+The WebGoat project is hosted at [github/WebGoat](https://github.com/WebGoat). 
 
 Contributions are welcome! A large portion of Webgoat lessons are community contributed.
 
