@@ -31,7 +31,7 @@ Contributors do not have direct repository access, but that doesn't mean contrib
 1. **Create a gihub account**, if not already existing
 1. **Fork the Webgoat repository** at https://github.com/WebGoat/WebGoat 
 1. **Create a topic branch** for the changes. If you are working on a Webgoat JIRA issue, use the ticket number as the topic branch name. If there is no JIRA ticket, use a sensible name.
-1. **Develop and test your changes**.  to make sure your changes are ok
+1. **Develop and test your changes**  to make sure your changes are ok
 1. **Create a Pull Request**. When you are ready to contribute your code. This is done via the github website. Please rebase your commits on top of master, so that your changes are easy to pull. If you don't know how to do that, there is a good overview [here](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
 1. **Core developer merges changes** If your changes look good, a care developer will merge the change into master.  Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread.
 
@@ -48,14 +48,14 @@ The workflow for Core Developers is very similar to that of contributors. The ma
 Core Developers should follows these steps when working on issues:
 
 1. **Create a topic branch** for the changes. Use the ticket number as the topic branch name. If there is no JIRA ticket, you should get/make one.
-1. **Develop and test your changes**.to make sure your changes are ok
-1. **Push your changes to origin** This makes your branch available for others to review.
-1. **Get Feedback, if needed** If you need someone else to test, they can check out your branch. 
+1. **Develop and test your changes** to make sure your changes are ok
+1. **Push your changes to origin** This makes your branch available for others to review
+1. **[Optional] Get Feedback, if needed** If you need someone else to test, they can check out your branch. If the change is simple, you might just move directly to the pull request.
 1. **Create a Pull Request**. This is done via the github website.  When you think your changes are ready, make a pull request for the merge into master.  Though you could easily merge directly, this makes sure another developer knows about the change, and has reviewed it.  
 1. **A Different Core developer merges changes** Your changes will be available in the nightly build. If the changes needed more work, that is coordinated on the pull request thread.
 
-Though it is tempting, core developers should not work off of their local master branch. There are two reasons why this is a bad idea:
+Though it is tempting, core developers should not work off of their local master branch to develop new features. There are two reasons why this is a bad idea:
 
 1.       You wont be able to easily work on multiple things without stashing
-1.       When your pull request is merged into the target branch, the maintainer may decide to rebase your commits to avoid a merge commit, or to squash the commits into a single coherent commit. If your pull request was from your 'master' branch, you will encounter problems when merging the target branch back into your own 'master'. 
+1.       When your pull request is merged into the target branch, the person merging your pull request may decide to rebase your commits to avoid a merge commit, or to squash the commits into a single coherent commit. If your pull request was from your 'master' branch, you will encounter problems when merging the target branch back into your own 'master'. 
 
