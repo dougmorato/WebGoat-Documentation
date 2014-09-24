@@ -27,7 +27,7 @@ Anything you merge to master needs to be at least good enough to go into the nig
 1.          all of the tests pass
 1.          nothing is _worse_ than it was before you started
 
-Releases are also cut from the master branch, using a separate, administrator-executed bamboo job. This job tags master, and produces a stable, long term release.  Stable releases are available for download on the [main WebGoatPage](http://webgoat.github.io)
+Releases are also cut from the master branch, using a separate, administrator-executed bamboo job. This job tags master, and produces a stable, long term release.  Stable releases are available for download on the [main WebGoat Page](http://webgoat.github.io)
 
 If you have access, [you can view the WebGoat builds](https://webgoat.atlassian.net/builds/browse/WEB)
 
