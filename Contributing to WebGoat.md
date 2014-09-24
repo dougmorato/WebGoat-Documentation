@@ -65,8 +65,9 @@ Core Developers should follows these steps when working on issues:
 
     * If a pull request cannot be merged on the website, it is ok to ask the originator to rebase their pull request on master.  This is more work for the requestor, but it is almost always the right thing to do, because it will have the original author solving merge problems, not the reviewer.  If this is greek to you, [this might help](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request)
 
- 
-Though it is tempting, core developers should not work off of their local master branch to develop new features. There are two reasons why this is a bad idea:
+## A word about the dark side....
+
+Though it is tempting, when developing for WebGoat, you should not work off of your local master branch. There are two reasons why this is a bad idea:
 
 1.       You wont be able to easily work on multiple things without stashing
 1.       When your pull request is merged into the target branch, the person merging your pull request may decide to rebase your commits to avoid a merge commit, or to squash the commits into a single coherent commit. If your pull request was from your 'master' branch, you will encounter problems when merging the target branch back into your own 'master'. 
