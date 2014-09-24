@@ -16,14 +16,18 @@ Webgoat admins external contributors to core developers whenever it makes sense.
 
 ## Repository Setup and Release Process
 
-Master is the main working stream. It is built nightly in bamboo, producing a numbered version each build.  This is the bleeding edge version, the 'nightly build'. The latest nightly build can be found [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and a list of all recently nighly builds is [here](https://webgoat.atlassian.net/builds/browse/WEB-WGM)
+Master is the main working stream. [This bamboo job](https://webgoat.atlassian.net/builds/browse/WEB-WGM) builds it nightly, producing a numbered version each build.  This is the bleeding edge version, the 'nightly build'. 
 
-Anything you merge to master needs to be at least good enough to go into the nightly build. that means:
+You can find [the latest nightly build](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and [a list of all recently nightly builds](https://webgoat.atlassian.net/builds/browse/WEB-WGM) in bamboo.
+
+WebGoat build numbers have a three-part structure:  <major>.<minor>.<buildNumber>.   For example, 6.1.65. 
+
+Anything you merge to master needs to be at least good enough to go into the nightly build. That means:
 
 1.          all of the tests pass
 1.          nothing is _worse_ than it was before you started
 
-Releases are cut from the master branch, using a separate, manually executed bamboo job. This job tags master, and produces a numbered release.  These artifacts are manually copied to the archive locations, especially stable releases.
+Releases are also cut from the master branch, using a separate, administrator-executed bamboo job. This job tags master, and produces a stable, long term release.  Stable releases are available for download on the [main WebGoatPage](http://webgoat.github.io)
 
 If you have access, [you can view the WebGoat builds](https://webgoat.atlassian.net/builds/browse/WEB)
 
@@ -65,4 +69,3 @@ Though it is tempting, core developers should not work off of their local master
 
 1.       You wont be able to easily work on multiple things without stashing
 1.       When your pull request is merged into the target branch, the person merging your pull request may decide to rebase your commits to avoid a merge commit, or to squash the commits into a single coherent commit. If your pull request was from your 'master' branch, you will encounter problems when merging the target branch back into your own 'master'. 
-
