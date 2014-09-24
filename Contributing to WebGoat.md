@@ -20,6 +20,8 @@ Master is the main working stream. [This bamboo job](https://webgoat.atlassian.n
 
 You can find [the latest nightly build](https://webgoat.atlassian.net/builds/browse/WEB-WGM/latest), and [a list of all recently nightly builds](https://webgoat.atlassian.net/builds/browse/WEB-WGM) in bamboo.
 
+If you have access, [you can view the WebGoat builds](https://webgoat.atlassian.net/builds/browse/WEB)
+
 WebGoat build numbers have a three-part structure:  <major>.<minor>.<buildNumber>.   For example, 6.1.65. 
 
 Anything you merge to master needs to be at least good enough to go into the nightly build. That means:
@@ -29,7 +31,6 @@ Anything you merge to master needs to be at least good enough to go into the nig
 
 Releases are also cut from the master branch, using a separate, administrator-executed bamboo job. This job tags master, and produces a stable, long term release.  Stable releases are available for download on the [main WebGoat Page](http://webgoat.github.io)
 
-If you have access, [you can view the WebGoat builds](https://webgoat.atlassian.net/builds/browse/WEB)
 
 
 ## Development Workflow for Contributors 
