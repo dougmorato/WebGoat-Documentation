@@ -37,9 +37,9 @@ Contributors do not have direct repository access, but that doesn't mean contrib
 
 If you are not an experienced git user, these tutorials might help:
 
-1. [Setting up Git](https://help.github.com/articles/set-up-git)
-1. [Forking a repo](https://help.github.com/articles/fork-a-repo)
-1. [About Pull Requests](https://help.github.com/articles/using-pull-requests)
+* [Setting up Git](https://help.github.com/articles/set-up-git)
+* [Forking a repo](https://help.github.com/articles/fork-a-repo)
+* [About Pull Requests](https://help.github.com/articles/using-pull-requests)
 
 ## Development Workflow for Core Developers
 
