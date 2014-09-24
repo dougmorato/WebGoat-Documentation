@@ -8,11 +8,11 @@ This page describes the WebGoat development process
 
 ## Roles
 
-* **Core WebGoat developers**. These folks have access to the WebGoat repository. They also have access to create, assign, and resolve JIRA tickets
-* **Webgoat contributors**. These folks do NOT have access to WebGoat, and have either read-only or no access to JIRA.
+* **Core developers**. These folks have access to the WebGoat repository. They also have access to create, assign, and resolve JIRA tickets
+* **external contributors**. These folks do NOT have access to WebGoat, and have either read-only or no access to JIRA.
 * **WebGoat admins**. These folks have admin access to the WebGoat Bamboo, JIRA and github repos to approve new users
 
-Webgoat admins promote users from "external" to "WebGoat" developers when it makes sense.
+Webgoat admins external contributors to core developers whenever it makes sense. If you'd like to join the team, we'd love to hear from you!
 
 ## Repository Setup and Release Process
 
