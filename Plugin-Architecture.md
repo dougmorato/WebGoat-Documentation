@@ -27,4 +27,26 @@ We want it to be easy to extend WebGoat.  Webgoat is extended using lessons, whi
 
 # Plugin format
 
+Each plugin contributes a lesson. Each lesson contributes:
+
+* A controller, which does logic and processing. This controller is authored in a script language, such as Groovy, so that it is short and reload-able
+* A dynamic view, which the user sees when working with the lesson
+* static resources, which include images, styles, etc
+
+There are two ways to distribute lessons:
+
+1. by storing the folder structure in WebGoat source tree. These are called **core-plugins**
+2. by creating this folder structure and creating a .zip file. It can be deployed into a running Webgoat by expanding it in the plugins folder.
+
+# How it works
+
+On startup, Webgoat ( even the self-run war file ) will expand its lessons into a 'plugins' directory on the file system, and set up tasks that watch for changes to the controllers and views. 
+
+A user can modify them as necessary without a restart.
+
+If a user would like to deploy new lessons, new folders can be created in the 'plugins' directory.  
+
+A system property 'WebGoat-Plugins-dir' allows the user to specify where the 'plugins' directory is. If found, Webgoat will use that folder for lessons.  On startup, it will expand core lessons into that folder (overwriting those that are there). That way, a user who has lots of local lessons can just upgrade the WebGoat jar, and running WG will update built-in lessons automatically.
+
+
 
