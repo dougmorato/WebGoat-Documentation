@@ -22,7 +22,7 @@ We want it to be easy to extend WebGoat.  Webgoat is extended using lessons, whi
 2. **Contributors**. In this case, the user authors lessons with the intent of contributing them back to the community. In this case:
     * The user is best served by starting with a git clone, because they eventually need to submit a pull request
     * The user runs WebGoat from source with mvn tomcat:run-war
-    * It is highly desirable for the user to be able to re-load rules without restarting tomcat. Otherwise its just a huge pain to develop
+    * It is highly desirable for the user to be able to re-load lessons without restarting tomcat. Otherwise its just a huge pain to develop
     * A Java IDE is probably more likely here, but again it shouldnt require a restart to make changes.
 
 # Plugin format
