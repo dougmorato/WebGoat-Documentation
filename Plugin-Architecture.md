@@ -42,9 +42,10 @@ There are two ways to distribute lessons:
 
 On startup, Webgoat ( even the self-run war file ) will expand its lessons into a 'plugins' directory on the file system, and set up tasks that watch for changes to the controllers and views. 
 
-A user can modify them as necessary without a restart.
+A user can modify them as necessary without a restart. The most common use case would be a user completing the LABS.
 
-If a user would like to deploy new lessons, new folders can be created in the 'plugins' directory.  
+If a user would like to deploy new lessons, new folders can be created in the 'plugins' directory.  The most common example would be to copy an existing lesson. The core distribution should include one or two examples that are suitable for copying as a starting point for a new lesson.
+
 
 A system property 'WebGoat-Plugins-dir' allows the user to specify where the 'plugins' directory is. If found, Webgoat will use that folder for lessons.  On startup, it will expand core lessons into that folder (overwriting those that are there). That way, a user who has lots of local lessons can just upgrade the WebGoat jar, and running WG will update built-in lessons automatically.
 
