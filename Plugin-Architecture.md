@@ -44,6 +44,7 @@ A plugin is simply a folder that follows a standard format. I based this format 
   /i18n
     messages.properties
     messages_es.properties
+    ...
   /lesson_plans
     (english at root, localized plans under locale folders)
     /fr
