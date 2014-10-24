@@ -35,7 +35,8 @@ Each plugin contributes a lesson. Each lesson contributes:
 
 A plugin is simply a folder that follows a standard format. I based this format off the grails layout with tweaks to add stuff specific to webgoat and remove stuff we don't use:
 ```
-/{lesson_name}
+/lesson_{unique_lesson_id}
+  config.json
   /controllers
   /views
   /i18n
@@ -51,6 +52,11 @@ A plugin is simply a folder that follows a standard format. I based this format 
     ...
   /hints
 ```
+
+* Note that hints and views will use the message bundles under i18n for localization
+* Lesson plans and solutions will probably be easier to author in the native language and drop in the locale folder rather than using the message bundles but I am open to change on this point 
+* config.json holds lesson configuration (name, menu entries, custom configuration entries)
+
 There are two ways to distribute lessons:
 
 1. by storing the folder structure in WebGoat source tree. These are called **core-plugins**
