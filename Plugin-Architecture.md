@@ -33,6 +33,24 @@ Each plugin contributes a lesson. Each lesson contributes:
 * A dynamic view, which the user sees when working with the lesson
 * static resources, which include images, styles, etc
 
+A plugin is simply a folder that follows a standard format. I based this format off the grails layout with tweaks to add stuff specific to webgoat and remove stuff we don't use:
+```
+/{lesson_name}
+  /controllers
+  /views
+  /i18n
+    messages.properties
+    messages_es.properties
+  /lesson_plans
+    (english at root, localized plans under locale folder)
+    /fr
+    ...
+  /lesson_solutions
+    (english at root, localized plans under locale folder)
+    /fr
+    ...
+  /hints
+```
 There are two ways to distribute lessons:
 
 1. by storing the folder structure in WebGoat source tree. These are called **core-plugins**
