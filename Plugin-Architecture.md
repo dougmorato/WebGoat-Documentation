@@ -38,6 +38,8 @@ A plugin is simply a folder that follows a standard format. I based this format 
 /lesson_{unique_lesson_id}
   config.json
   /controllers
+  /assets
+   (js and css go here)
   /views
   /i18n
     messages.properties
@@ -56,6 +58,9 @@ A plugin is simply a folder that follows a standard format. I based this format 
 * Note that hints and views will use the message bundles under i18n for localization
 * Lesson plans and solutions will probably be easier to author in the native language and drop in the locale folder rather than using the message bundles but I am open to change on this point 
 * config.json holds lesson configuration (name, menu entries, custom configuration entries)
+* controllers can be either MVC controllers or REST based on annotations (will leverage springmvc)
+* I am thinking of using groovy for controllers as it's close enough to Java for the java folks but doesn't require the compile/deploy cycle and syntax is easier for the people who prefer scripting
+* Not sure exactly of the view. Will either be jsp, gsp, thymeleaf or freemarker (how's that for narrowing it down!)
 
 There are two ways to distribute lessons:
 
