@@ -43,11 +43,11 @@ A plugin is simply a folder that follows a standard format. I based this format 
     messages.properties
     messages_es.properties
   /lesson_plans
-    (english at root, localized plans under locale folder)
+    (english at root, localized plans under locale folders)
     /fr
     ...
   /lesson_solutions
-    (english at root, localized plans under locale folder)
+    (english at root, localized solutions under locale folders)
     /fr
     ...
   /hints
