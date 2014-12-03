@@ -22,7 +22,7 @@ Developer Labs		|	| X
 
 # Downloading
 
- * **Easy-run distribution**: https://webgoat.atlassian.net/builds/browse/WEB-DAIL/latestSuccessful/artifact/shared/WebGoat-Embedded-Tomcat/WebGoat-6.0-SNAPSHOT-war-exec.jar  
+ * **Easy-run distribution**: https://webgoat.atlassian.net/builds/browse/WEB-WGM/latestSuccessful/artifact/shared/WebGoat-Embedded-Tomcat/WebGoat-6.0.1-war-exec.jar  
  * **Source distribution**: https://github.com/WebGoat/WebGoat
 	
 # Quick Start -- Easy Run
