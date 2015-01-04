@@ -20,6 +20,6 @@ To provide overall better navigation, bookmarking, using browser nav. buttons an
 
 Optionally, if we want to show/treat _labs_ a little differently, we can also have:
 `http://server.tld[:PORT#]/webgoat/start.mvc/#lab/400/125` << This would route to the first lab in Ajax Security.
-This would allow for additional checks etc. to be done (pre-requisites) when initiating a lab-view as opposed to a lesson view.  We'll need to discuss that yet. And, of course, if we want those to really mean something, said checks need to be double-checked on the server in case of a submission from a lab. We still want to produce respectable app, right?!?
+This could allow for additional checks etc. to be done (pre-requisites) when initiating a lab view as opposed to a lesson view.  We'll need to discuss that yet. And, of course, if we want those to really mean something, said checks need to be double-checked on the server in case of a submission from a lab. We still want to produce respectable app, right?!?
 
 Either way, the routing should allow for us to traverse *.jsp's when needed (although I need to think about that some more still), while primarily staying in the SPA model (and being able to return to it from a separate *.jsp as needed)
