@@ -18,6 +18,8 @@ Before contacting webgoat support at webgoat at owasp.org or posting to the [htt
 
 1. [Q: How do I solve lesson X?](#mailing-list)
 
+1. [Q: How do I contribute to the code i.e. fork/commit?](#forking)
+
 <a name="bug-report"/>
 ##  How do I report a bug?
 
@@ -93,3 +95,8 @@ where the 127.0.0.1 will be replaced by your IP. In this case 10.20.20.123
 Subscribe to the WebGoat mailing list at owasp-webgoat@lists.owasp.org.
 
 Post your question to owasp-webgoat@lists.owasp.org
+
+<a name="forking"/>
+##  How do I contribute to the code i.e. fork/commit?
+
+Check out our instructions on [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat/wiki/Forking-WebGoat-in-GitHub).
