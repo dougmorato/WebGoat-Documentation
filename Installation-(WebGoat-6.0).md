@@ -23,7 +23,7 @@ Developer Labs		|	| X
 # Downloading
 
  * **Easy-run distribution**: https://webgoat.atlassian.net/builds/browse/WEB-WGM/latestSuccessful/artifact/shared/WebGoat-Embedded-Tomcat/WebGoat-6.0.1-war-exec.jar  
- * **Source distribution**: https://github.com/WebGoat/WebGoat
+ * **Source distribution**: https://github.com/WebGoat/WebGoat-Legacy
 	
 # Quick Start -- Easy Run
  1. **Install a Java JVM**.  You can get one here http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html
@@ -45,7 +45,7 @@ Developer Labs		|	| X
 # Quick Start -- Source Distribution
 	
  1. **Install the Prerequisites** Minimally, this is a JDK and Maven, but it may include an IDE Git if you do not have them.
- 2. **Download the source** from https://github.com/WebGoat/WebGoat You'll want to clone it if you intend to contribute, otherwise you can just download an archive
+ 2. **Download the source** from https://github.com/WebGoat/WebGoat-Legacy You'll want to clone it if you intend to contribute, otherwise you can just download an archive
  3. **Run WebGoat with Maven** Change to the project location, and run:
 	
 	```
