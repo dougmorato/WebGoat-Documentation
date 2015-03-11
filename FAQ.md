@@ -32,7 +32,7 @@ Today we are tracking defects with [http://webgoat.atlassian.net Jira]. You will
 
 Rename the downloaded war file to WebGoat.war.  Delete the existing tomcat/webapps/*WebGoat* directories. Restart Tomcat.
 
-You can also create an tomcat embedded server build.  Look in the [https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-6.0) Installation Wiki]
+You can also create an tomcat embedded server build.  Look in the [https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-6.0) Installation Wiki]
 ***
 
 <a name="non-tom-cat-app-server"/>
@@ -45,7 +45,7 @@ Make sure you are going to http://localhost:8080/WebGoat.  You should see a logi
 <a name="ant-file"/>
 ## I'm having problems with the maven build working properly. How do I configure my environment so that I don't receive errors:
 
-Look in the [https://github.com/WebGoat/WebGoat/wiki/Installation-(WebGoat-6.0) Installation Wiki]
+Look in the [https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-6.0) Installation Wiki]
 ***
 
 <a name="startup"/>
@@ -99,4 +99,4 @@ Post your question to owasp-webgoat@lists.owasp.org
 <a name="forking"/>
 ##  How do I contribute to the code i.e. fork/commit?
 
-Check out our instructions on [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat/wiki/Forking-WebGoat-in-GitHub).
+Check out our instructions on [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat-Legacy/wiki/Forking-WebGoat-in-GitHub).
