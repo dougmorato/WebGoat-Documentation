@@ -1,6 +1,6 @@
 ## Overview
 
-The WebGoat project is hosted at [github/WebGoat](https://github.com/WebGoat). 
+The WebGoat project is hosted at [github/WebGoat](https://github.com/WebGoat-Legacy). 
 
 Contributions are welcome! A large portion of Webgoat lessons are community contributed.
 
@@ -38,7 +38,7 @@ Contributors do not have direct repository access, but that doesn't mean contrib
 If you'd like to help out, just fork the Webgoat Repository and make a pull request. Contributers should follow these steps:
 
 1. **Create a gihub account**, if not already existing.
-1. **Fork the Webgoat repository** at [https://github.com/WebGoat/WebGoat](https://github.com/WebGoat/WebGoat).
+1. **Fork the Webgoat repository** at [https://github.com/WebGoat/WebGoat-Legacy](https://github.com/WebGoat/WebGoat-Legacy).
 1. **Create a topic branch** for the changes. If you are working on a Webgoat JIRA issue, use the ticket number as the topic branch name. If there is no JIRA ticket, use a sensible name.
 1. **Develop and test your changes**  to make sure your changes are ok.
 1. **Create a Pull Request**. When you are ready to contribute your code. This is done via the github website. Please rebase your commits on top of master, so that your changes are easy to pull. If you don't know how to do that, [here's is a good overview](https://github.com/edx/edx-platform/wiki/How-to-Rebase-a-Pull-Request).
