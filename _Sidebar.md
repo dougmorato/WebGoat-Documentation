@@ -1,3 +1,4 @@
+#[Home](https://github.com/WebGoat/WebGoat-Legacy/wiki)
 1. Helping the Goat!
  - [Contributing to WebGoat](https://github.com/WebGoat/WebGoat-Legacy/wiki/Contributing-to-WebGoat)
  - [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat-Legacy/wiki/Forking-WebGoat-in-GitHub)
