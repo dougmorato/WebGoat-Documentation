@@ -19,11 +19,7 @@
 
 ## Proxy Utilization
 
-## Ready to Go!
+## [Plugin Architecture](https://github.com/WebGoat/WebGoat-Legacy/wiki/Plugin-Architecture)
 
-## 
-* [Plugin Architecture](https://github.com/WebGoat/WebGoat-Legacy/wiki/Plugin-Architecture)
-
-## 
-* [FAQ](https://github.com/WebGoat/WebGoat-Legacy/wiki/FAQ)
+## [FAQ](https://github.com/WebGoat/WebGoat-Legacy/wiki/FAQ)
 
