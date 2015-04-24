@@ -1,6 +1,6 @@
 1. Introduction and Overview
  - [Contributing to WebGoat](https://github.com/WebGoat/WebGoat-Legacy/wiki/Contributing-to-WebGoat)
- - [Forking WEbGoat in GitHub](https://github.com/WebGoat/WebGoat-Legacy/wiki/Forking-WebGoat-in-GitHub)
+ - [Forking WebGoat in GitHub](https://github.com/WebGoat/WebGoat-Legacy/wiki/Forking-WebGoat-in-GitHub)
 2. Installation and Configuration
  * [Installation (WebGoat 5.4)](https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-5.4))
  * [Installation (WebGoat 6.0)](https://github.com/WebGoat/WebGoat-Legacy/wiki/Installation-(WebGoat-6.0))
