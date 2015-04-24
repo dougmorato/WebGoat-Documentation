@@ -1,3 +1,4 @@
+![WebGoat Logo](https://raw.githubusercontent.com/wiki/WebGoat/WebGoat-Legacy/images/wg_logo_snag.png)
 # Webgoat
 
 1. <a href="#what">What is WebGoat?</a>
