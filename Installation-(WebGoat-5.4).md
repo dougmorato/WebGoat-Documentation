@@ -1,12 +1,12 @@
-#summary WebGoat Installation Instructions
-= Introduction =
+
+# Introduction
 
 WebGoat installations are intended to be download, unzip, and click-to-run installations.  However, some users prefer just downloading the war file.  Instructions for all installations are included.
 
 
-= Details =
+# Details
 
-== WebGoat Standard Releases ==
+## WebGoat Standard Releases
 
 This release comes with a JRE and Tomcat 7.
 
@@ -19,12 +19,12 @@ This release comes with a JRE and Tomcat 7.
   * Browse to http://localhost/WebGoat/attack for Windows or http://localhost:8080/WebGoat/attack for Ubuntu
   * Username = guest, password = guest
 
-== WebGoat Developer Releases ==
+## WebGoat Developer Releases
 
 Version 5.4 uses maven, see the readme for instructions
 
 
-== WebGoat War File Releases ==
+## WebGoat War File Releases
 
 This release assumes either a previous installation of a WebGoat Standard release or the host machine has Java 1.6 or higher and Tomcat 7.  If you have not installed the Standard release, you will need to modify the tomcat/conf/tomcat-users.xml file to add the WebGoat users.  See the [http://code.google.com/p/webgoat/wiki/FAQ FAQ]
   * Download WebGoat-X.X.war from [http://code.google.com/p/webgoat/downloads/list WebGoat Downloads]
