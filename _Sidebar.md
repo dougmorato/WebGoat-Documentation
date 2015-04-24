@@ -11,4 +11,4 @@
 7. Proxy Utilization
 8. Ready to Go!
 9. [Plugin Architecture](https://github.com/WebGoat/WebGoat-Legacy/wiki/Plugin-Architecture)
-[FAQ](https://github.com/WebGoat/WebGoat-Legacy/wiki/FAQ)
+10. [FAQ](https://github.com/WebGoat/WebGoat-Legacy/wiki/FAQ)
