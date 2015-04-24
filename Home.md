@@ -4,7 +4,7 @@
 2. <a href="#builds">Builds</a>
 
 <a name="what" />
-# Hack, the WebGoat
+# What is WebGoat?
  
 WebGoat is a deliberately insecure application that allows interested developers
 just like you to *test vulnerabilities* commonly found in Java-based
