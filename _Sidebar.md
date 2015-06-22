@@ -13,9 +13,11 @@
 
 ## Getting Started
 
+## Basic Operation
+
 ## Lesson Plans
 
-## Basic Operation
+## Lesson Solutions
 
 ## Proxy Utilization
 
